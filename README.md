@@ -1,6 +1,6 @@
-# Cadara - 3D Design Education Platform
+# Triax AI - 3D Design Education Platform
 
-Cadara is an interactive web-based application that makes 3D design education free, fun, and accessible for everyone through AI-powered learning experiences.
+Triax AI is an interactive web-based application that makes 3D design education free, fun, and accessible for everyone through AI-powered learning experiences.
 
 ## 🚀 Problem Statement
 
@@ -8,7 +8,7 @@ Traditional CAD education is expensive, intimidating, and lacks interactive guid
 
 ## 💡 Solution
 
-Cadara combines interactive 3D modeling with AI agents to provide:
+Triax AI combines interactive 3D modeling with AI agents to provide:
 
 - Real-time feedback on design decisions through AI chatbot
 - Intelligent challenge progression
