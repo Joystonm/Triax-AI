@@ -11,9 +11,11 @@ const initialState = {
     target: [0, 0, 0]
   },
   scene: {
-    background: '#f0f0f0',
+    background: '#2a2a2a',
     gridVisible: true,
-    axesVisible: true
+    axesVisible: true,
+    wireframe: false,
+    cameraType: 'perspective'
   },
   history: {
     past: [],
@@ -124,7 +126,9 @@ export const SceneProvider = ({ children }) => {
   }
 
   const addObject = (object) => {
+    console.log('Adding object:', object)
     dispatch({ type: 'ADD_OBJECT', payload: object })
+    console.log('Object added to state')
   }
 
   const removeObject = (objectId) => {
